@@ -1,5 +1,5 @@
 # Clean_CRC_GEOJSON_PROPERTIES
-Will remove all overwriting properties objects in each feature of a geojson constructed for CRC that is not a isDefault feature.
+Will remove all overwriting properties objects in each feature of a geojson constructed for CRC that is not an isDefault feature.
 The isDefaults will be placed at the beginning of the feature collection.
 
 For clarification:
