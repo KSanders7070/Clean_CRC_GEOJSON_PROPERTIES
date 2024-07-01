@@ -3,9 +3,9 @@ Will remove all overwriting properties objects in each feature of a geojson cons
 The isDefaults will be placed at the beginning of the feature collection.
 
 For clarification:  
-* In a isDefault feature, the properties to remain.  
-* In a feature that is a Type:Point but has a TEXT property, the TEXT properties object will stay but all other objects will be removed from the properties.  
-* In a feature that is anything else, it will remove the properties objects.
+* In a isDefault feature, the properties will remain as they are.  
+* In a feature that is a "Type:Point" but has a TEXT property, the TEXT properties object will remain but all other objects will be removed from the properties.  
+* In all other features properties objects will be removed.
 
 Run:
 1) Launch CMD prompt.
